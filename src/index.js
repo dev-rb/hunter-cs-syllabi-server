@@ -31,7 +31,7 @@ app.get('/classes/:classId/:syllabiId', (req, res) => {
 });
 
 
-app.listen("3001", () => {
+app.listen(process.env.PORT, () => {
     console.log("Server running on port 3001!");
 });
 
